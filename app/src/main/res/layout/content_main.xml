@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/txtville"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="monospace"
+        android:text="@string/ville"
+        android:textColor="#112233"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_marginStart="30dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:textSize="50sp"
+                android:text="@string/c"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#033447"
+                    android:textSize="20sp"
+                    android:text="@string/date"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:textColor="#033447"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/t_min"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textColor="#033447"/>
+
+            <TextView
+                android:id="@+id/tempmin"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#033447"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/t_max"
+                android:textSize="20sp"
+                android:textStyle="bold" android:fontFamily="sans-serif"
+
+                android:textColor="#033447"/>
+
+            <TextView
+                android:id="@+id/tempmax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#033447"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                tools:ignore="RtlHardcoded" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/pression"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+
+                android:textColor="#033447"/>
+
+            <TextView
+                android:id="@+id/pression"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#033447"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                tools:ignore="RtlHardcoded" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/humidit"
+                android:textColor="#033447"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/humid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#033447"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                tools:ignore="RtlHardcoded" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

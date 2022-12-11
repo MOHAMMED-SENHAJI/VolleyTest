@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Météo</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+    <string name="ville">Ville</string>
+    <string name="c">C°</string>
+    <string name="date">Date</string>
+    <string name="t_min">T° Min:</string>
+    <string name="t_max">T° Max :</string>
+    <string name="pression">Pression:</string>
+    <string name="humidit">Humidité:</string>
+</resources>
